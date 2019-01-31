@@ -1,7 +1,7 @@
 div#megadiv div.
 
 
-div#megadiv div.rotation90 {
+.rotation90 {
 	width:10%;
    -webkit-transform: rotate(90deg);
    -moz-transform: rotate(90deg);
@@ -15,7 +15,12 @@ div#megadiv div.rotation90 {
 	display: block;
 	margin: auto;
 	}
+
+
+
 .logo {width:4%;}
+
+
 
 
 #box photo {
@@ -26,6 +31,9 @@ div#megadiv div.rotation90 {
 	display: block;
 	margin: auto;
 }
+
+
+
 
 
 div#megadiv div.gauche{
