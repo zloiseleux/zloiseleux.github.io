@@ -7,7 +7,7 @@
    transform: rotate(90deg);
    border: 2px solid black;
 	position: absolute;
-	top: 15px;
+	top: 50px;
 	right: 10px;
 	display: block;
 	margin: auto;
@@ -21,12 +21,10 @@
 
 
 div#megadiv div.gauche{
-	position: absolute;
 	top: 12px;
 	left: 2px;
 	display: block;
 	margin: auto;
 	border: 2px solid black;
-	
 }
 
