@@ -18,30 +18,49 @@
 	<body>
 	
 	
-	
-		<h1>Zörg Loiseleux</h1>
-		<br/>
-		<pre>33 Rue de l'hospitalité
-Ballan-Miré
-06 15 74 19 37
-06/01/1995 (24 ans)
-Permis A et B</pre>
-	
-	
-		<a href="https://facebook.com/zorg.loiseleux"> <img src="incon facebook.png" class="logo" alt="Mon facebook" title="Mon facebook" /> </a>
-	
-	
-		<a href="mailto:loiseleuxzorg@gmail.com"><img src="icone du mail.png" class="logo" alt="Mon Email" title="Mon Email"/>
+		<!-- Ici une boite qui représente tout ce qu'on veut voir au dessus des icones réseaux sociaux, cv, ... -->
+		<div id="megadiv">
+			<div class="gauche">
+			<h1>Zörg Loiseleux</h1>
+			<br/>
+			<p> 
+				<!-- Ici j'ai juste changer "pre" en "p" à cause de l'indentation 
+						L'indentation c'est le fait de bien agencer ton code pour que ca soit plus simple à lire 
+						(par toi si tu reviens dessus 1 mois après avec une cuite ou par d'autres devs qui reprennent ton code).
+						Ici par exemple, tu peux voir que je mets mes <div> </div> l'un en dessous de l'autre et que tout ce qui est dedans est décallé d'un tab. C'est plus lisible quand on cherche un truc,
+						meme si ca n'impacte pas le code. Ca permet aussi de voir si tu as oublié de fermer une balise (source de bug bien chiant à retrouver)-->
+				33 Rue de l'hospitalité<br/>
+				Ballan-Miré<br/>
+				06 15 74 19 37<br/>
+				06/01/1995 (24 ans)<br/>
+				Permis A et B
+			</p>
+			</div>
+			
+			
+			
+			<div class="rotation90">
+			<img src="photo.jpg"/>
+			</div>
+			
+			
+			
+		</div>	
 		
-		
-		
-		<a href="Zörg LOISELEUX cv.docx"><img src="fleche.png" class="logo" alt="mon cv" title="mon cv" download="Zörg Loiseleux cv"/>	
-		
-		
-		<a href="https://soundcloud.com/user-319801634?fbclid=IwAR1wzKKJorI5rdNCn3bvjyNVtwH-y2r6N8pLnGj_uj3XZXnCTcuqdpQC6Ps"> <img src="icon music.png" class="logo" alt="Mes musiques" title="Mes musiques" /> </a>
-		
-		<div id="box photo">
-		<img src="photo.jpg"class="rotation90"/>
+		<!-- Ici la div qui rassemblent toutes les icones réseaux sociaux-->
+		<div>
+			<a href="https://facebook.com/zorg.loiseleux"> 
+				<img src="incon facebook.png" class="logo" alt="Mon facebook" title="Mon facebook" /> 
+			</a>
+			<a href="mailto:loiseleuxzorg@gmail.com">
+				<img src="icone du mail.png" class="logo" alt="Mon Email" title="Mon Email"/>
+			</a>
+			<a href="Zörg LOISELEUX cv.docx">
+				<img src="fleche.png" class="logo" alt="mon cv" title="mon cv" download="Zörg Loiseleux cv"/>
+			</a>
+			<a href="https://soundcloud.com/user-319801634?fbclid=IwAR1wzKKJorI5rdNCn3bvjyNVtwH-y2r6N8pLnGj_uj3XZXnCTcuqdpQC6Ps"> 
+				<img src="icon music.png" class="logo" alt="Mes musiques" title="Mes musiques" /> 
+			</a>
 		</div>
 		
 		</body>
