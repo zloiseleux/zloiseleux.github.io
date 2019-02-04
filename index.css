@@ -28,3 +28,37 @@ div#megadiv div.gauche{
 	border: 2px solid black;
 }
 
+
+
+h2{
+	left: 40%;
+	position: absolute;
+	display: block;
+	margin: auto;
+	border: 2px solid black;
+	background-color: grey;
+}
+
+
+
+
+h3{
+	left: 10px;
+	position: absolute;
+	display: block;
+	margin: auto;
+}
+	
+	
+	
+	
+	
+	
+.diplomes{
+	top:350px;
+	left: 10px;
+	position: absolute;
+	display: block;
+	margin: auto;
+}
+
