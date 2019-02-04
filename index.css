@@ -43,7 +43,7 @@ h2{
 
 
 h3{
-	left: 10px;
+	left: 10%;
 	position: absolute;
 	display: block;
 	margin: auto;
@@ -55,7 +55,7 @@ h3{
 	
 	
 .ul{
-	left: 10px;
+	left: 20px;
 	position: absolute;
 	display: block;
 	margin: auto;
