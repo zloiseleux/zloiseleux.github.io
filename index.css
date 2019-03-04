@@ -15,10 +15,13 @@
 
 
 
-.logo {width:4%;}
+.logo {width:4%;
+}
 
 
-
+a {text-decoration: none;
+	
+}
 
 div#megadiv div.gauche{
 	top: 12px;
@@ -31,18 +34,19 @@ div#megadiv div.gauche{
 
 
 h2{
-	left: 40%;
 	position: absolute;
 	display: block;
 	margin: auto;
 	border: 2px solid black;
 	background-color: grey;
+	width: 100%;
 }
 
 
 
 
 h3{
+	text-decoration: underline grey;
 	left: 10%;
 	position: absolute;
 	display: block;
