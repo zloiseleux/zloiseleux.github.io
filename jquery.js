@@ -1,5 +1,3 @@
-$(document).ready(function(){
-		$('h2').click(function(){
-		$('ul').slideToggle(3000);
+function montre(id){
+		$(id).animate ({width: "slideToggle"(3000)
 		});
-	});
