@@ -64,6 +64,8 @@ ul{
 	display: block;
 	margin: auto;
 	background-color: #8F8891;
-	display: none;
 }
 
+div[id^="clickbro"]{
+	display: none;
+}
