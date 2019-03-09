@@ -1,3 +1,3 @@
 function montre(id){
-		$(id).slideToggle(4000);
+		$(id).slideToggle(2000);
 }
