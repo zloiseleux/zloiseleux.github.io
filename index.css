@@ -34,6 +34,7 @@ div#megadiv div.gauche{
 	display: block;
 	margin: auto;
 	border: 4px outset #3b83bd;
+	border-radius: 6px;
 }
 
 
@@ -43,6 +44,7 @@ h2{
 	display: block;
 	margin: auto;
 	border: 4px outset #3b83bd;
+	border-radius; 6px;
 	background-color: #8F8891;
 	width: 100%;
 }
