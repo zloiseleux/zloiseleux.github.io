@@ -3,6 +3,21 @@ td,th{
 }
 
 
+
 table{
 	border-collapse: collapse;
+}
+
+div.tableau{
+	top: 200px;
+	left: 300px;
+	position: absolute;
+	margin: auto;
+}
+
+h1{
+	top: 100px;
+	left: 350px;
+	position: absolute;
+	margin: auto;
 }
