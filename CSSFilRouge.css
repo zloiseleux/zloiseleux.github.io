@@ -1,6 +1,7 @@
 td,th{
 	border: 1px solid rgba(3,156,114,0.9);
 	width: 85%;
+	padding: 10px;
 	
 }
 
@@ -18,7 +19,7 @@ table{
 
 div.tableau{
 	top: 200px;
-	left: 300px;
+	left: 200px;
 	position: absolute;
 	margin: auto;
 }
