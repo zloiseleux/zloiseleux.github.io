@@ -1,15 +1,17 @@
 td,th{
-	border: 1px solid 3,156,114;
+	border: 1px solid black;
+	width: 85%;
+	
 }
 
 body{
-	background-color: 51,51,51;
+	background-color: gray;
 	
 }
 
 table{
 	border-collapse: collapse;
-	width: 100%;
+	
 }
 
 div.tableau{
