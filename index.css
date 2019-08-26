@@ -1,18 +1,19 @@
 .rotation90 {
-	width:15%;
+	width:10%;
    -webkit-transform: rotate(90deg);
    -moz-transform: rotate(90deg);
    -ms-transform: rotate(90deg);
    -o-transform: rotate(90deg);
    transform: rotate(90deg);
+   
    border: 6px double black;
+   
 	position: absolute;
-	top: 50px;
-	right: 10px;
+	top: 4.5%;
+	right: 1%;
 	display: block;
 	margin: auto;
 	}
-
 
 
 .logo {width:4%;
@@ -29,8 +30,8 @@ a {text-decoration: none;
 }
 
 div#megadiv div.gauche{
-	top: 12px;
-	left: 2px;
+	top: 10%;
+	left: 5%;
 	display: block;
 	margin: auto;
 	border: 4px outset #3b83bd;
@@ -44,7 +45,7 @@ h2{
 	display: block;
 	margin: auto;
 	border: 4px outset #3b83bd;
-	border-radius; 6px;
+	border-radius: 6px;
 	background-color: #8F8891;
 	width: 100%;
 }
@@ -52,12 +53,12 @@ h2{
 
 
 
-h3{
+.date{
 	text-decoration: underline #3b83bd;
-	left: 10%;
-	position: absolute;
+	padding-left: 10%;
 	display: block;
 	margin: auto;
+	font-weight: bold;
 }
 	
 	
