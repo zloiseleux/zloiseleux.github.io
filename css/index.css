@@ -1,0 +1,78 @@
+.rotation90 {
+	width:10%;
+   -webkit-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   transform: rotate(90deg);
+   
+   border: 6px double black;
+   
+	position: absolute;
+	top: 4.5%;
+	right: 1%;
+	display: block;
+	margin: auto;
+	}
+
+
+.logo {width:4%;
+}
+
+
+body {
+	background-color: #7f7679;
+}
+
+
+a {text-decoration: none;
+	
+}
+
+div#megadiv div.gauche{
+	top: 10%;
+	left: 5%;
+	display: block;
+	margin: auto;
+	border: 4px outset #3b83bd;
+	border-radius: 6px;
+}
+
+
+
+h2{
+	position: absolute;
+	display: block;
+	margin: auto;
+	border: 4px outset #3b83bd;
+	border-radius: 6px;
+	background-color: #8F8891;
+	width: 100%;
+}
+
+
+
+
+.date{
+	text-decoration: underline #3b83bd;
+	padding-left: 10%;
+	display: block;
+	margin: auto;
+	font-weight: bold;
+}
+	
+	
+	
+	
+	
+	
+ul{
+	left: 20px;
+	display: block;
+	margin: auto;
+}
+
+div[id^="clickbro"]{
+	display: none;
+	
+}
