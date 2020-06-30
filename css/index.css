@@ -1,31 +1,41 @@
 .rotation90 {
-	width:10%;
-   -webkit-transform: rotate(90deg);
-   -moz-transform: rotate(90deg);
-   -ms-transform: rotate(90deg);
-   -o-transform: rotate(90deg);
-   transform: rotate(90deg);
-   
-   border: 6px double black;
-   
+	width:12%;
+	border: 6px double black;
 	position: absolute;
-	top: 4.5%;
+	top: 8%;
 	right: 1%;
 	display: block;
 	margin: auto;
 	}
 
+html {
+  margin:0;
+  padding:0;
+  background: url(../img/2672.jpg) no-repeat center center fixed !important; 
+  background-size: cover !important; 
+}
 
-.logo {width:4%;
+body{
+	background-color: rgba(0, 0, 255, 0);
+}
+
+p{
+	font-size: 1.5vw ;
+	color: #FFF3D3 ;
+}
+
+h1{
+	font-size: 3vw ;
+	color: #FFF3D3 !important ;
+}	
+
+.logo {
+	width:4%;
 }
 
 
-body {
-	background-color: #7f7679;
-}
-
-
-a {text-decoration: none;
+a {
+	text-decoration: none;
 	
 }
 
@@ -36,6 +46,9 @@ div#megadiv div.gauche{
 	margin: auto;
 	border: 4px outset #3b83bd;
 	border-radius: 6px;
+	background-color: 24, 23, 23 ;
+	margin-left: 0.5% ;
+	margin-right: 0.5% ;
 }
 
 
@@ -46,8 +59,10 @@ h2{
 	margin: auto;
 	border: 4px outset #3b83bd;
 	border-radius: 6px;
-	background-color: #8F8891;
-	width: 100%;
+	width: 98%;
+	font-size: 1.5vw ;
+	color: #FFF3D3 ;
+	margin-left: 0.5% ;
 }
 
 
@@ -59,20 +74,98 @@ h2{
 	display: block;
 	margin: auto;
 	font-weight: bold;
+	color: #FFF3D3 ;
+	font-size: 1vw ;
+	margin-left: 0.5% ;
 }
-	
-	
-	
-	
-	
 	
 ul{
 	left: 20px;
 	display: block;
 	margin: auto;
+	font-size: 1vw ;
+	color: #FFF3D3 ;
+	margin-left: 0.5% ;
 }
 
-div[id^="clickbro"]{
+div[id^="paragr"]{
 	display: none;
 	
+}
+
+@media (max-width: 1550px) {
+	.rotation90{
+		
+		width:9%;
+		right: 2%;
+		
+	}
+	.logo {
+		width:6%;
+	}
+}
+
+@media (max-width: 990px) {
+	.rotation90{
+		
+	margin-top: 11% ;
+		
+	}
+}
+
+@media (max-width: 900px) {
+	.rotation90{
+		margin-top: 13% ;
+		width:12%;
+		right: 3%;
+		
+	}
+	.logo {
+		width:9%;
+	}
+	h1{
+	font-size: 4vw ;
+	}
+	p{
+	font-size: 2vw ;
+	}
+	
+	h2{
+	font-size: 2vw ;
+	width: 97%;
+	
+	}
+	ul{
+		font-size: 1.7vw ;
+	}
+	.date{
+		font-size: 1.7vw ;
+	}
+
+}
+
+@media (max-width: 550px) {
+	.rotation90{
+		margin-top: 27% ;
+		width:15%;
+		right: 3%;
+		
+	}
+	h1{
+	font-size: 6vw ;
+	}
+	p{
+	font-size: 4vw ;
+	}
+	h2{
+	font-size: 4vw ;
+	width: 95%;
+	}
+	ul{
+		font-size: 3.7vw ;
+	}
+	.date{
+		font-size: 3.7vw ;
+	}
+
 }
